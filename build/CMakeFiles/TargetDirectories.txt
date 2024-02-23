@@ -1,0 +1,2 @@
+/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/build/CMakeFiles/edit_cache.dir
+/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/build/CMakeFiles/rebuild_cache.dir

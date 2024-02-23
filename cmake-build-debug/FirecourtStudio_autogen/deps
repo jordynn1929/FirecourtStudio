@@ -1,0 +1,109 @@
+FirecourtStudio_autogen/timestamp: \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/CMakeLists.txt \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/3.27.8/CMakeCCompiler.cmake \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/main.cpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/Engine/Engine.hpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/Engine/Zeta/Compiler/Compiler.cpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/Engine/Zeta/Compiler/Compiler.hpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/Engine/Zeta/Config/ZetaConfig.cpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/Engine/Zeta/Config/ZetaConfig.hpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/Engine/Zeta/Editor/Tweaks.cpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/Engine/Zeta/Editor/Tweaks.hpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/Engine/resources.hpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/GUI/Components/Footer/Footer.cpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/GUI/Components/Footer/Footer.hpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/GUI/Components/Header/Header.cpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/GUI/Components/Header/Header.hpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/GUI/Components/MainWindow/MainWindow.cpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/GUI/Components/MainWindow/MainWindow.hpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/GUI/Components/Playlist/PlaylistWidget.cpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/GUI/Components/Playlist/PlaylistWidget.hpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/GUI/GUI.cpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/GUI/GUI.hpp \
+	/home/heather/Firecourt\ Corp/Firecourt\ Studio/FirecourtStudio/src/GUI/resource.hpp \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeParseArguments.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPkgConfig.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux.cmake \
+	/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake \
+	/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake \
+	/usr/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake \
+	/usr/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake \
+	/usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake \
+	/usr/lib/cmake/Qt5Core/Qt5CoreMacros.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QTsLibPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake \
+	/usr/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake \
+	/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake \
+	/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
+	/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
+	/usr/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
+	/usr/lib/cmake/juce/JUCECheckAtomic.cmake \
+	/usr/lib/cmake/juce/JUCEConfig.cmake \
+	/usr/lib/cmake/juce/JUCEConfigVersion.cmake \
+	/usr/lib/cmake/juce/JUCEHelperTargets.cmake \
+	/usr/lib/cmake/juce/JUCEModuleSupport.cmake \
+	/usr/lib/cmake/juce/JUCEUtils.cmake \
+	/usr/lib/cmake/juce/LV2_HELPER-none.cmake \
+	/usr/lib/cmake/juce/LV2_HELPER.cmake \
+	/opt/clion/bin/cmake/linux/x64/bin/cmake

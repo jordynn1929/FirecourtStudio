@@ -1,0 +1,288 @@
+{
+	"BUILD_DIR" : "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/FirecourtStudio_autogen",
+	"CMAKE_BINARY_DIR" : "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio",
+	"CMAKE_EXECUTABLE" : "/opt/clion/bin/cmake/linux/x64/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/CMakeLists.txt",
+		"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake",
+		"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/3.27.8/CMakeCCompiler.cmake",
+		"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/lib/cmake/juce/JUCEConfigVersion.cmake",
+		"/usr/lib/cmake/juce/JUCEConfig.cmake",
+		"/usr/lib/cmake/juce/LV2_HELPER.cmake",
+		"/usr/lib/cmake/juce/LV2_HELPER-none.cmake",
+		"/usr/lib/cmake/juce/JUCEModuleSupport.cmake",
+		"/usr/lib/cmake/juce/JUCEHelperTargets.cmake",
+		"/usr/lib/cmake/juce/JUCECheckAtomic.cmake",
+		"/usr/lib/cmake/juce/JUCEUtils.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPkgConfig.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPkgConfig.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPkgConfig.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPkgConfig.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPkgConfig.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPkgConfig.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake",
+		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/usr/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/usr/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QTsLibPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeParseArguments.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio",
+	"DEP_FILE" : "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/FirecourtStudio_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "FirecourtStudio_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/Engine/Engine.hpp",
+			"Mu",
+			"KCTWAPXAR4/moc_Engine.cpp",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/Engine/Zeta/Compiler/Compiler.hpp",
+			"Mu",
+			"XNXE74QWHJ/moc_Compiler.cpp",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/Engine/Zeta/Config/ZetaConfig.hpp",
+			"Mu",
+			"IUJZUBR5AU/moc_ZetaConfig.cpp",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/Engine/Zeta/Editor/Tweaks.hpp",
+			"Mu",
+			"TDLXHFXAC6/moc_Tweaks.cpp",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/Engine/resources.hpp",
+			"Mu",
+			"KCTWAPXAR4/moc_resources.cpp",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/Footer/Footer.hpp",
+			"Mu",
+			"JRDYSVY33X/moc_Footer.cpp",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/Header/Header.hpp",
+			"Mu",
+			"VT4DV3UQPP/moc_Header.cpp",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/MainWindow/MainWindow.hpp",
+			"Mu",
+			"DGQ6FLAO3U/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/Playlist/PlaylistWidget.hpp",
+			"Mu",
+			"MHRZLOQCBO/moc_PlaylistWidget.cpp",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/GUI.hpp",
+			"Mu",
+			"RDKJSLABA2/moc_GUI.cpp",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/resource.hpp",
+			"Mu",
+			"RDKJSLABA2/moc_resource.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/FirecourtStudio_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/FirecourtStudio_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug",
+		"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio",
+		"/usr/include/qt",
+		"/usr/include/qt/QtWidgets",
+		"/usr/include/qt/QtGui",
+		"/usr/include/qt/QtCore",
+		"/usr/lib/qt/mkspecs/linux-g++",
+		"/usr/include/c++/13.2.1",
+		"/usr/include/c++/13.2.1/x86_64-pc-linux-gnu",
+		"/usr/include/c++/13.2.1/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/FirecourtStudio_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/FirecourtStudio_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/FirecourtStudio_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/main.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/Engine/Zeta/Compiler/Compiler.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/Engine/Zeta/Config/ZetaConfig.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/Engine/Zeta/Editor/Tweaks.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/Footer/Footer.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/Header/Header.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/MainWindow/MainWindow.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/Playlist/PlaylistWidget.cpp",
+			"Mu",
+			null
+		],
+		[
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/GUI.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

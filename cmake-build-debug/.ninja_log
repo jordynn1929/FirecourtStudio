@@ -1,0 +1,26 @@
+# ninja log v5
+1	7	1708582615417656452	/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/FirecourtStudio_autogen/mocs_compilation.cpp	c3a68a95fdc8cb9d
+8	20	1708579196548321598	CMakeFiles/FirecourtStudio.dir/src/Engine/Zeta/Editor/Tweaks.cpp.o	f2d4c4dd925a6fbc
+7	846	1708581582372434727	CMakeFiles/FirecourtStudio.dir/src/GUI/Components/Footer/Footer.cpp.o	3b926f471c35da6e
+38	66	1708573050432212314	CMakeFiles/FirecourtStudio.dir/FirecourtStudio_autogen/mocs_compilation.cpp.o	17363d80177ca0e3
+7	925	1708582616335651746	CMakeFiles/FirecourtStudio.dir/src/GUI/Components/MainWindow/MainWindow.cpp.o	a0d757d4e34ab98f
+8	20	1708579196548321598	CMakeFiles/FirecourtStudio.dir/src/Engine/Zeta/Config/ZetaConfig.cpp.o	efa143e1daaa3a25
+7	918	1708582616328651782	CMakeFiles/FirecourtStudio.dir/src/GUI/GUI.cpp.o	a010affd32ca6b66
+7	947	1708581582474434065	CMakeFiles/FirecourtStudio.dir/main.cpp.o	979b4ebb66d39b7a
+0	36	1708584532949755502	build.ninja	a9953595297707aa
+1	7	1708582615417656452	FirecourtStudio_autogen/mocs_compilation.cpp	c3a68a95fdc8cb9d
+7	841	1708581582367434760	CMakeFiles/FirecourtStudio.dir/src/GUI/Components/Header/Header.cpp.o	9c7de2d45d30b3ee
+1	7	1708582615417656452	/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/FirecourtStudio_autogen/timestamp	c3a68a95fdc8cb9d
+925	1132	1708582616541650690	FirecourtStudio	6981e6fcb546bba7
+1	7	1708582615417656452	FirecourtStudio_autogen/timestamp	c3a68a95fdc8cb9d
+6	815	1708582537246058496	CMakeFiles/FirecourtStudio.dir/src/GUI/Components/MainWindow/setupUi.cpp.o	653374a4a5b7ac68
+6	842	1708581382668801346	CMakeFiles/FirecourtStudio.dir/src/GUI/Components/Playlist/PlaylistWidget.cpp.o	be80b9413c3d4ab6
+7	20	1708579196548321598	CMakeFiles/FirecourtStudio.dir/src/Engine/Zeta/Compiler/Compiler.cpp.o	68c6a5407eaf2e9c
+0	82	0	/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/cmake.verify_globs	bf3bba04b8d2e6cd
+2	20	1708585141455997042	FirecourtStudio_autogen/timestamp	c3a68a95fdc8cb9d
+2	20	1708585141455997042	FirecourtStudio_autogen/mocs_compilation.cpp	c3a68a95fdc8cb9d
+2	20	1708585141455997042	/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/FirecourtStudio_autogen/timestamp	c3a68a95fdc8cb9d
+2	20	1708585141455997042	/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/FirecourtStudio_autogen/mocs_compilation.cpp	c3a68a95fdc8cb9d
+20	2412	1708585143846950493	CMakeFiles/FirecourtStudio.dir/src/GUI/GUI.cpp.o	a010affd32ca6b66
+20	2417	1708585143851950396	CMakeFiles/FirecourtStudio.dir/src/GUI/Components/MainWindow/MainWindow.cpp.o	a0d757d4e34ab98f
+2417	2996	1708585144425939237	FirecourtStudio	6981e6fcb546bba7
