@@ -3,20 +3,16 @@ project(FirecourtStudio)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)  # Add this line to enable autouic
 
 # Set JUCE directory
 set(JUCE_DIR /home/heather/Documents/JUCE)
 
 # Find JUCE library
 find_package(JUCE REQUIRED)
-
-
-
 find_package(Qt5Widgets)
 
 add_executable(FirecourtStudio main.cpp
-        src/GUI/Components/MainWindow/MainWindow.cpp
-        src/GUI/Components/MainWindow/MainWindow.hpp
         src/GUI/Components/Playlist/PlaylistWidget.cpp
         src/GUI/Components/Playlist/PlaylistWidget.hpp
         src/GUI/resource.hpp
@@ -34,6 +30,9 @@ add_executable(FirecourtStudio main.cpp
         src/GUI/Components/Header/Header.cpp
         src/GUI/Components/Header/Header.hpp
         src/GUI/GUI.cpp
+        src/GUI/Components/MainWindow/mainwindow.cpp
+        src/GUI/Components/MainWindow/mainwindow.hpp
+        src/GUI/Components/MainWindow/Mainwindow.ui
 )
 
 include_directories(${Qt5Widgets_INCLUDES})

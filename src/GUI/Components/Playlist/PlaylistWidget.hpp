@@ -6,7 +6,7 @@
 #define FIRECOURTSTUDIO_PLAYLISTWIDGET_HPP
 #include "src/GUI/resource.hpp"
 
-class GUI;
+
 
 class PlaylistWidget  {
 public:

@@ -1,22 +1,20 @@
-//
-// Created by heather on 2/22/24.
-//
-// GUI.cpp
-
 #include "GUI.hpp"
-#include "Components/MainWindow/MainWindow.hpp"
+#include "Components/MainWindow/mainwindow.hpp"
 #include "Components/Playlist/PlaylistWidget.hpp"
 
+namespace GUI {
+
 // Initialize static members
-MainWindow* GUI::mainWindow = nullptr;
-PlaylistWidget* GUI::playlistWidget = nullptr;
+    MainWindow* GUIManager::mainWindow = nullptr;
+    PlaylistWidget* GUIManager::playlistWidget = nullptr;
 
-void GUI::initialize() {
-    mainWindow = new MainWindow();
-    playlistWidget = new PlaylistWidget();
-}
+    void GUIManager::initialize() {
+        // Initialize GUI components
+    }
 
-void GUI::shutdown() {
-    delete mainWindow;
-    delete playlistWidget;
-}
+    void GUIManager::shutdown() {
+        delete mainWindow;
+        delete playlistWidget;
+    }
+
+} // namespace GUI

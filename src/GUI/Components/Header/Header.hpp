@@ -7,8 +7,20 @@
 
 
 #include "src/GUI/GUI.hpp"
+#include "qmenubar.h"
 
-class Header {
+
+class Header : public QMenuBar {
+    Header();
+
+
+public:
+    Header(QMenuBar header);
+
+    Header(QWidget *parent, const QMenuBar &header);
+
+    ~Header();
+private:
 
 
 };

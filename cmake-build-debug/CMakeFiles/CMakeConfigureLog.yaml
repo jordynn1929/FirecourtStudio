@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Linux - 6.7.5-lqx1-1-lqx - x86_64
   -
@@ -14,7 +14,7 @@ events:
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: /usr/bin/cc 
@@ -36,7 +36,7 @@ events:
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: /usr/bin/c++ 
@@ -57,22 +57,27 @@ events:
     backtrace:
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jU2m26"
-      binary: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jU2m26"
+      source: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W1jPV6"
+      binary: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W1jPV6"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jU2m26'
+        Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W1jPV6'
         
-        Run Build Command(s): /opt/clion/bin/ninja/linux/x64/ninja -v cmTC_a41c0
-        [1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_a41c0.dir/CMakeCCompilerABI.c.o -c /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cb054/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_cb054.dir/build.make CMakeFiles/cmTC_cb054.dir/build
+        make[1]: Entering directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W1jPV6'
+        Building C object CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.o -c /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         Target: x86_64-pc-linux-gnu
@@ -80,8 +85,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a41c0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a41c0.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a41c0.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccDFLbj8.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cb054.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cb054.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccXxpk2v.s
         GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -95,13 +100,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: eb0b45108af02c02a078961940bce3e9
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a41c0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a41c0.dir/'
-         as -v --64 -o CMakeFiles/cmTC_a41c0.dir/CMakeCCompilerABI.c.o /tmp/ccDFLbj8.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cb054.dir/'
+         as -v --64 -o CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.o /tmp/ccXxpk2v.s
         GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a41c0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a41c0.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /usr/bin/cc  -v  -rdynamic CMakeFiles/cmTC_a41c0.dir/CMakeCCompilerABI.c.o -o cmTC_a41c0   && :
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_cb054
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb054.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.o -o cmTC_cb054 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -112,9 +119,10 @@ events:
         gcc version 13.2.1 20230801 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a41c0' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a41c0.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCRshWb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a41c0 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_a41c0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a41c0' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a41c0.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cb054' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cb054.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQF2ISl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_cb054 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cb054' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cb054.'
+        make[1]: Leaving directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W1jPV6'
         
       exitCode: 0
   -
@@ -122,7 +130,7 @@ events:
     backtrace:
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
@@ -144,14 +152,17 @@ events:
     backtrace:
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jU2m26']
+        ignore line: [Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W1jPV6']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/clion/bin/ninja/linux/x64/ninja -v cmTC_a41c0]
-        ignore line: [[1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_a41c0.dir/CMakeCCompilerABI.c.o -c /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cb054/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_cb054.dir/build.make CMakeFiles/cmTC_cb054.dir/build]
+        ignore line: [make[1]: Entering directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W1jPV6']
+        ignore line: [Building C object CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.o -c /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -159,8 +170,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a41c0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a41c0.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a41c0.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccDFLbj8.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cb054.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cb054.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccXxpk2v.s]
         ignore line: [GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -174,13 +185,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: eb0b45108af02c02a078961940bce3e9]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a41c0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a41c0.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_a41c0.dir/CMakeCCompilerABI.c.o /tmp/ccDFLbj8.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cb054.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.o /tmp/ccXxpk2v.s]
         ignore line: [GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_a41c0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a41c0.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /usr/bin/cc  -v  -rdynamic CMakeFiles/cmTC_a41c0.dir/CMakeCCompilerABI.c.o -o cmTC_a41c0   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_cb054]
+        ignore line: [/opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb054.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.o -o cmTC_cb054 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
@@ -191,13 +204,13 @@ events:
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a41c0' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a41c0.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCRshWb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a41c0 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_a41c0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cb054' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cb054.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQF2ISl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_cb054 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccCRshWb.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccQF2ISl.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -208,12 +221,11 @@ events:
           arg [--hash-style=gnu] ==> ignore
           arg [-m] ==> ignore
           arg [elf_x86_64] ==> ignore
-          arg [-export-dynamic] ==> ignore
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_a41c0] ==> ignore
+          arg [cmTC_cb054] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
@@ -222,7 +234,7 @@ events:
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
-          arg [CMakeFiles/cmTC_a41c0.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_cb054.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -255,22 +267,27 @@ events:
     backtrace:
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XIBipE"
-      binary: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XIBipE"
+      source: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AcbxW9"
+      binary: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AcbxW9"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XIBipE'
+        Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AcbxW9'
         
-        Run Build Command(s): /opt/clion/bin/ninja/linux/x64/ninja -v cmTC_3bce4
-        [1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_3bce4.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_566b3/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_566b3.dir/build.make CMakeFiles/cmTC_566b3.dir/build
+        make[1]: Entering directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AcbxW9'
+        Building CXX object CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
@@ -278,8 +295,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3bce4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3bce4.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3bce4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccOJDF2U.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_566b3.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_566b3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccYkq7Nf.s
         GNU C++17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -296,13 +313,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: f089b864c6bcbc2427e9850aa6414a11
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3bce4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3bce4.dir/'
-         as -v --64 -o CMakeFiles/cmTC_3bce4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccOJDF2U.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_566b3.dir/'
+         as -v --64 -o CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccYkq7Nf.s
         GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3bce4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3bce4.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /usr/bin/c++  -v  -rdynamic CMakeFiles/cmTC_3bce4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3bce4   && :
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_566b3
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_566b3.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_566b3 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -313,9 +332,10 @@ events:
         gcc version 13.2.1 20230801 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3bce4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3bce4.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjYnc0Q.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_3bce4 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_3bce4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3bce4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3bce4.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_566b3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_566b3.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJRtUWn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_566b3 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_566b3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_566b3.'
+        make[1]: Leaving directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AcbxW9'
         
       exitCode: 0
   -
@@ -323,7 +343,7 @@ events:
     backtrace:
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -351,14 +371,17 @@ events:
     backtrace:
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
       - "/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XIBipE']
+        ignore line: [Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AcbxW9']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/clion/bin/ninja/linux/x64/ninja -v cmTC_3bce4]
-        ignore line: [[1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_3bce4.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_566b3/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_566b3.dir/build.make CMakeFiles/cmTC_566b3.dir/build]
+        ignore line: [make[1]: Entering directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AcbxW9']
+        ignore line: [Building CXX object CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -366,8 +389,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3bce4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3bce4.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3bce4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccOJDF2U.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_566b3.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_566b3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccYkq7Nf.s]
         ignore line: [GNU C++17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -384,13 +407,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: f089b864c6bcbc2427e9850aa6414a11]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3bce4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3bce4.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_3bce4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccOJDF2U.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_566b3.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccYkq7Nf.s]
         ignore line: [GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_3bce4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3bce4.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /usr/bin/c++  -v  -rdynamic CMakeFiles/cmTC_3bce4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3bce4   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_566b3]
+        ignore line: [/opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_566b3.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_566b3 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
@@ -401,13 +426,13 @@ events:
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_3bce4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3bce4.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjYnc0Q.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_3bce4 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_3bce4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_566b3' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_566b3.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJRtUWn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_566b3 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccjYnc0Q.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccJRtUWn.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -418,12 +443,11 @@ events:
           arg [--hash-style=gnu] ==> ignore
           arg [-m] ==> ignore
           arg [elf_x86_64] ==> ignore
-          arg [-export-dynamic] ==> ignore
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_3bce4] ==> ignore
+          arg [cmTC_566b3] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
@@ -432,7 +456,7 @@ events:
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
-          arg [CMakeFiles/cmTC_3bce4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_566b3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -456,10 +480,6 @@ events:
         implicit fwks: []
       
       
-...
-
----
-events:
   -
     kind: "try_compile-v1"
     backtrace:
@@ -469,8 +489,8 @@ events:
       - "/usr/lib/cmake/juce/JUCEConfig.cmake:70 (include)"
       - "CMakeLists.txt:11 (find_package)"
     directories:
-      source: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_AmT3EQv3G3VUbMfW/CMakeFiles/CMakeTmp"
-      binary: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_AmT3EQv3G3VUbMfW/CMakeFiles/CMakeTmp"
+      source: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_oYVf5iSAzneZdazA/CMakeFiles/CMakeTmp"
+      binary: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_oYVf5iSAzneZdazA/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -479,11 +499,17 @@ events:
       variable: "compile_result"
       cached: true
       stdout: |
-        Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_AmT3EQv3G3VUbMfW/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_oYVf5iSAzneZdazA/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /opt/clion/bin/ninja/linux/x64/ninja -v cmTC_d0611
-        [1/2] /usr/bin/c++   -std=c++17 -fdiagnostics-color=always -o CMakeFiles/cmTC_d0611.dir/check_atomic_tXFEZQP2hz3XJuK5.cpp.o -c '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_tXFEZQP2hz3XJuK5.cpp'
-        [2/2] : && /usr/bin/c++   CMakeFiles/cmTC_d0611.dir/check_atomic_tXFEZQP2hz3XJuK5.cpp.o -o cmTC_d0611   && :
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8730f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8730f.dir/build.make CMakeFiles/cmTC_8730f.dir/build
+        make[1]: Entering directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_oYVf5iSAzneZdazA/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_8730f.dir/check_atomic_b2aXUwe0XMpqbLAE.cpp.o
+        /usr/bin/c++   -std=c++17 -fdiagnostics-color=always -o CMakeFiles/cmTC_8730f.dir/check_atomic_b2aXUwe0XMpqbLAE.cpp.o -c "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_b2aXUwe0XMpqbLAE.cpp"
+        Linking CXX executable cmTC_8730f
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8730f.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_8730f.dir/check_atomic_b2aXUwe0XMpqbLAE.cpp.o -o cmTC_8730f 
+        make[1]: Leaving directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_oYVf5iSAzneZdazA/CMakeFiles/CMakeTmp'
         
       exitCode: 0
   -
@@ -506,16 +532,19 @@ events:
       stdout: |
         Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /opt/clion/bin/ninja/linux/x64/ninja -v cmTC_acc0d
-        [1/2] /usr/bin/c++   -fdiagnostics-color=always -o CMakeFiles/cmTC_acc0d.dir/juce_runtime_arch_detection.cpp.o -c /usr/lib/cmake/juce/juce_runtime_arch_detection.cpp
-        FAILED: CMakeFiles/cmTC_acc0d.dir/juce_runtime_arch_detection.cpp.o 
-        /usr/bin/c++   -fdiagnostics-color=always -o CMakeFiles/cmTC_acc0d.dir/juce_runtime_arch_detection.cpp.o -c /usr/lib/cmake/juce/juce_runtime_arch_detection.cpp
-        /usr/lib/cmake/juce/juce_runtime_arch_detection.cpp:48:4: error: #error JUCE_ARCH x86_64
-           48 |   #error JUCE_ARCH x86_64
-              |    ^~~~~
-        ninja: build stopped: subcommand failed.
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cddaf/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_cddaf.dir/build.make CMakeFiles/cmTC_cddaf.dir/build
+        make[1]: Entering directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_cddaf.dir/juce_runtime_arch_detection.cpp.o
+        /usr/bin/c++   -fdiagnostics-color=always -o CMakeFiles/cmTC_cddaf.dir/juce_runtime_arch_detection.cpp.o -c /usr/lib/cmake/juce/juce_runtime_arch_detection.cpp
+        \x1b[01m\x1b[K/usr/lib/cmake/juce/juce_runtime_arch_detection.cpp:48:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#error JUCE_ARCH x86_64
+           48 |   #\x1b[01;31m\x1b[Kerror\x1b[m\x1b[K JUCE_ARCH x86_64
+              |    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K
+        make[1]: *** [CMakeFiles/cmTC_cddaf.dir/build.make:78: CMakeFiles/cmTC_cddaf.dir/juce_runtime_arch_detection.cpp.o] Error 1
+        make[1]: Leaving directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:127: cmTC_cddaf/fast] Error 2
         
-      exitCode: 1
+      exitCode: 2
 ...
 
 ---
@@ -529,8 +558,8 @@ events:
       - "/usr/lib/cmake/juce/JUCEConfig.cmake:70 (include)"
       - "CMakeLists.txt:11 (find_package)"
     directories:
-      source: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_ghNXhVA0YmaiFMLu/CMakeFiles/CMakeTmp"
-      binary: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_ghNXhVA0YmaiFMLu/CMakeFiles/CMakeTmp"
+      source: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_TRgzfJsjJ8G4HVpA/CMakeFiles/CMakeTmp"
+      binary: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_TRgzfJsjJ8G4HVpA/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -539,11 +568,17 @@ events:
       variable: "compile_result"
       cached: true
       stdout: |
-        Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_ghNXhVA0YmaiFMLu/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_TRgzfJsjJ8G4HVpA/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /opt/clion/bin/ninja/linux/x64/ninja -v cmTC_0a7fd
-        [1/2] /usr/bin/c++   -std=c++17 -fdiagnostics-color=always -o CMakeFiles/cmTC_0a7fd.dir/check_atomic_EHmhGOLaHlws2lbQ.cpp.o -c '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_EHmhGOLaHlws2lbQ.cpp'
-        [2/2] : && /usr/bin/c++   CMakeFiles/cmTC_0a7fd.dir/check_atomic_EHmhGOLaHlws2lbQ.cpp.o -o cmTC_0a7fd   && :
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_20f9e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_20f9e.dir/build.make CMakeFiles/cmTC_20f9e.dir/build
+        make[1]: Entering directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_TRgzfJsjJ8G4HVpA/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_20f9e.dir/check_atomic_4AkfiYIWfmc8ZYNq.cpp.o
+        /usr/bin/c++   -std=c++17 -fdiagnostics-color=always -o CMakeFiles/cmTC_20f9e.dir/check_atomic_4AkfiYIWfmc8ZYNq.cpp.o -c "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_4AkfiYIWfmc8ZYNq.cpp"
+        Linking CXX executable cmTC_20f9e
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20f9e.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_20f9e.dir/check_atomic_4AkfiYIWfmc8ZYNq.cpp.o -o cmTC_20f9e 
+        make[1]: Leaving directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_TRgzfJsjJ8G4HVpA/CMakeFiles/CMakeTmp'
         
       exitCode: 0
 ...
@@ -559,8 +594,8 @@ events:
       - "/usr/lib/cmake/juce/JUCEConfig.cmake:70 (include)"
       - "CMakeLists.txt:11 (find_package)"
     directories:
-      source: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_FKgSUMd3VoiVYclK/CMakeFiles/CMakeTmp"
-      binary: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_FKgSUMd3VoiVYclK/CMakeFiles/CMakeTmp"
+      source: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_h2iftmXqpwqLuilo/CMakeFiles/CMakeTmp"
+      binary: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_h2iftmXqpwqLuilo/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -569,11 +604,167 @@ events:
       variable: "compile_result"
       cached: true
       stdout: |
-        Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_FKgSUMd3VoiVYclK/CMakeFiles/CMakeTmp'
+        Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_h2iftmXqpwqLuilo/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /opt/clion/bin/ninja/linux/x64/ninja -v cmTC_58ed3
-        [1/2] /usr/bin/c++   -std=c++17 -fdiagnostics-color=always -o CMakeFiles/cmTC_58ed3.dir/check_atomic_dWS4GbkqNnHKNnwg.cpp.o -c '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dWS4GbkqNnHKNnwg.cpp'
-        [2/2] : && /usr/bin/c++   CMakeFiles/cmTC_58ed3.dir/check_atomic_dWS4GbkqNnHKNnwg.cpp.o -o cmTC_58ed3   && :
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0fa0b/fast
+        make[1]: Entering directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_h2iftmXqpwqLuilo/CMakeFiles/CMakeTmp'
+        /usr/bin/make  -f CMakeFiles/cmTC_0fa0b.dir/build.make CMakeFiles/cmTC_0fa0b.dir/build
+        make[2]: Entering directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_h2iftmXqpwqLuilo/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_0fa0b.dir/check_atomic_wWVc67sSuRH6lzgs.cpp.o
+        /usr/bin/c++   -std=c++17 -o CMakeFiles/cmTC_0fa0b.dir/check_atomic_wWVc67sSuRH6lzgs.cpp.o -c "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_wWVc67sSuRH6lzgs.cpp"
+        Linking CXX executable cmTC_0fa0b
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fa0b.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_0fa0b.dir/check_atomic_wWVc67sSuRH6lzgs.cpp.o -o cmTC_0fa0b 
+        make[2]: Leaving directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_h2iftmXqpwqLuilo/CMakeFiles/CMakeTmp'
+        make[1]: Leaving directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_h2iftmXqpwqLuilo/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/cmake/juce/JUCECheckAtomic.cmake:64 (try_compile)"
+      - "/usr/lib/cmake/juce/JUCECheckAtomic.cmake:119 (_juce_create_atomic_target)"
+      - "/usr/lib/cmake/juce/JUCEModuleSupport.cmake:44 (include)"
+      - "/usr/lib/cmake/juce/JUCEConfig.cmake:70 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    directories:
+      source: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_EaEU6AtGwYuqVkzV/CMakeFiles/CMakeTmp"
+      binary: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_EaEU6AtGwYuqVkzV/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "compile_result"
+      cached: true
+      stdout: |
+        Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_EaEU6AtGwYuqVkzV/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e3ec0/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_e3ec0.dir/build.make CMakeFiles/cmTC_e3ec0.dir/build
+        make[1]: Entering directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_EaEU6AtGwYuqVkzV/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_e3ec0.dir/check_atomic_9sehyyr34vIWY9kQ.cpp.o
+        /usr/bin/c++   -std=c++17 -fdiagnostics-color=always -o CMakeFiles/cmTC_e3ec0.dir/check_atomic_9sehyyr34vIWY9kQ.cpp.o -c "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_9sehyyr34vIWY9kQ.cpp"
+        Linking CXX executable cmTC_e3ec0
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3ec0.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_e3ec0.dir/check_atomic_9sehyyr34vIWY9kQ.cpp.o -o cmTC_e3ec0 
+        make[1]: Leaving directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_EaEU6AtGwYuqVkzV/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/cmake/juce/JUCECheckAtomic.cmake:64 (try_compile)"
+      - "/usr/lib/cmake/juce/JUCECheckAtomic.cmake:119 (_juce_create_atomic_target)"
+      - "/usr/lib/cmake/juce/JUCEModuleSupport.cmake:44 (include)"
+      - "/usr/lib/cmake/juce/JUCEConfig.cmake:70 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    directories:
+      source: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_AfFcBfOEsAjbEx8b/CMakeFiles/CMakeTmp"
+      binary: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_AfFcBfOEsAjbEx8b/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "compile_result"
+      cached: true
+      stdout: |
+        Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_AfFcBfOEsAjbEx8b/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_64303/fast
+        make[1]: Entering directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_AfFcBfOEsAjbEx8b/CMakeFiles/CMakeTmp'
+        /usr/bin/make  -f CMakeFiles/cmTC_64303.dir/build.make CMakeFiles/cmTC_64303.dir/build
+        make[2]: Entering directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_AfFcBfOEsAjbEx8b/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_64303.dir/check_atomic_4t4rb0cMPLK2TQtO.cpp.o
+        /usr/bin/c++   -std=c++17 -o CMakeFiles/cmTC_64303.dir/check_atomic_4t4rb0cMPLK2TQtO.cpp.o -c "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_4t4rb0cMPLK2TQtO.cpp"
+        Linking CXX executable cmTC_64303
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64303.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_64303.dir/check_atomic_4t4rb0cMPLK2TQtO.cpp.o -o cmTC_64303 
+        make[2]: Leaving directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_AfFcBfOEsAjbEx8b/CMakeFiles/CMakeTmp'
+        make[1]: Leaving directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_AfFcBfOEsAjbEx8b/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/cmake/juce/JUCECheckAtomic.cmake:64 (try_compile)"
+      - "/usr/lib/cmake/juce/JUCECheckAtomic.cmake:119 (_juce_create_atomic_target)"
+      - "/usr/lib/cmake/juce/JUCEModuleSupport.cmake:44 (include)"
+      - "/usr/lib/cmake/juce/JUCEConfig.cmake:70 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    directories:
+      source: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_zZC3a1qAtTSHygUs/CMakeFiles/CMakeTmp"
+      binary: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_zZC3a1qAtTSHygUs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "compile_result"
+      cached: true
+      stdout: |
+        Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_zZC3a1qAtTSHygUs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_54fb3/fast
+        make[1]: Entering directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_zZC3a1qAtTSHygUs/CMakeFiles/CMakeTmp'
+        /usr/bin/make  -f CMakeFiles/cmTC_54fb3.dir/build.make CMakeFiles/cmTC_54fb3.dir/build
+        make[2]: Entering directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_zZC3a1qAtTSHygUs/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_54fb3.dir/check_atomic_yw81W6VSe6alhZ7M.cpp.o
+        /usr/bin/c++   -std=c++17 -o CMakeFiles/cmTC_54fb3.dir/check_atomic_yw81W6VSe6alhZ7M.cpp.o -c "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_yw81W6VSe6alhZ7M.cpp"
+        Linking CXX executable cmTC_54fb3
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54fb3.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_54fb3.dir/check_atomic_yw81W6VSe6alhZ7M.cpp.o -o cmTC_54fb3 
+        make[2]: Leaving directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_zZC3a1qAtTSHygUs/CMakeFiles/CMakeTmp'
+        make[1]: Leaving directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_zZC3a1qAtTSHygUs/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/cmake/juce/JUCECheckAtomic.cmake:64 (try_compile)"
+      - "/usr/lib/cmake/juce/JUCECheckAtomic.cmake:119 (_juce_create_atomic_target)"
+      - "/usr/lib/cmake/juce/JUCEModuleSupport.cmake:44 (include)"
+      - "/usr/lib/cmake/juce/JUCEConfig.cmake:70 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    directories:
+      source: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_F9WxuVmGtzV2BWsi/CMakeFiles/CMakeTmp"
+      binary: "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_F9WxuVmGtzV2BWsi/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "compile_result"
+      cached: true
+      stdout: |
+        Change Dir: '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_F9WxuVmGtzV2BWsi/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /opt/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_044b3/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_044b3.dir/build.make CMakeFiles/cmTC_044b3.dir/build
+        make[1]: Entering directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_F9WxuVmGtzV2BWsi/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_044b3.dir/check_atomic_zCyMvxNP99Nph7J1.cpp.o
+        /usr/bin/c++   -std=c++17 -fdiagnostics-color=always -o CMakeFiles/cmTC_044b3.dir/check_atomic_zCyMvxNP99Nph7J1.cpp.o -c "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_zCyMvxNP99Nph7J1.cpp"
+        Linking CXX executable cmTC_044b3
+        /opt/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_044b3.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_044b3.dir/check_atomic_zCyMvxNP99Nph7J1.cpp.o -o cmTC_044b3 
+        make[1]: Leaving directory '/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/check_atomic_dir_F9WxuVmGtzV2BWsi/CMakeFiles/CMakeTmp'
         
       exitCode: 0
 ...

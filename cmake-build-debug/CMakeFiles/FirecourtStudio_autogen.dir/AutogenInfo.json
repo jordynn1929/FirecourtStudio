@@ -17,6 +17,9 @@
 		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake",
 		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux.cmake",
 		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeFindCodeBlocks.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake",
+		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/ProcessorCount.cmake",
 		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake",
 		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake",
 		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake",
@@ -115,73 +118,73 @@
 		"/opt/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeParseArguments.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio",
-	"DEP_FILE" : "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/FirecourtStudio_autogen/deps",
-	"DEP_FILE_RULE_NAME" : "FirecourtStudio_autogen/timestamp",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/Engine/Engine.hpp",
-			"Mu",
+			"MU",
 			"KCTWAPXAR4/moc_Engine.cpp",
 			null
 		],
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/Engine/Zeta/Compiler/Compiler.hpp",
-			"Mu",
+			"MU",
 			"XNXE74QWHJ/moc_Compiler.cpp",
 			null
 		],
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/Engine/Zeta/Config/ZetaConfig.hpp",
-			"Mu",
+			"MU",
 			"IUJZUBR5AU/moc_ZetaConfig.cpp",
 			null
 		],
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/Engine/Zeta/Editor/Tweaks.hpp",
-			"Mu",
+			"MU",
 			"TDLXHFXAC6/moc_Tweaks.cpp",
 			null
 		],
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/Engine/resources.hpp",
-			"Mu",
+			"MU",
 			"KCTWAPXAR4/moc_resources.cpp",
 			null
 		],
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/Footer/Footer.hpp",
-			"Mu",
+			"MU",
 			"JRDYSVY33X/moc_Footer.cpp",
 			null
 		],
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/Header/Header.hpp",
-			"Mu",
+			"MU",
 			"VT4DV3UQPP/moc_Header.cpp",
 			null
 		],
 		[
-			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/MainWindow/MainWindow.hpp",
-			"Mu",
-			"DGQ6FLAO3U/moc_MainWindow.cpp",
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/MainWindow/mainwindow.hpp",
+			"MU",
+			"DGQ6FLAO3U/moc_mainwindow.cpp",
 			null
 		],
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/Playlist/PlaylistWidget.hpp",
-			"Mu",
+			"MU",
 			"MHRZLOQCBO/moc_PlaylistWidget.cpp",
 			null
 		],
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/GUI.hpp",
-			"Mu",
+			"MU",
 			"RDKJSLABA2/moc_GUI.cpp",
 			null
 		],
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/resource.hpp",
-			"Mu",
+			"MU",
 			"RDKJSLABA2/moc_resource.cpp",
 			null
 		]
@@ -232,7 +235,7 @@
 	"PARALLEL" : 6,
 	"PARSE_CACHE_FILE" : "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/FirecourtStudio_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
-	"QT_UIC_EXECUTABLE" : "",
+	"QT_UIC_EXECUTABLE" : "/usr/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
 	"SETTINGS_FILE" : "/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/cmake-build-debug/CMakeFiles/FirecourtStudio_autogen.dir/AutogenUsed.txt",
@@ -240,49 +243,53 @@
 	[
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/main.cpp",
-			"Mu",
+			"MU",
 			null
 		],
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/Engine/Zeta/Compiler/Compiler.cpp",
-			"Mu",
+			"MU",
 			null
 		],
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/Engine/Zeta/Config/ZetaConfig.cpp",
-			"Mu",
+			"MU",
 			null
 		],
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/Engine/Zeta/Editor/Tweaks.cpp",
-			"Mu",
+			"MU",
 			null
 		],
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/Footer/Footer.cpp",
-			"Mu",
+			"MU",
 			null
 		],
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/Header/Header.cpp",
-			"Mu",
+			"MU",
 			null
 		],
 		[
-			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/MainWindow/MainWindow.cpp",
-			"Mu",
+			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/MainWindow/mainwindow.cpp",
+			"MU",
 			null
 		],
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/Components/Playlist/PlaylistWidget.cpp",
-			"Mu",
+			"MU",
 			null
 		],
 		[
 			"/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio/src/GUI/GUI.cpp",
-			"Mu",
+			"MU",
 			null
 		]
 	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0
 }

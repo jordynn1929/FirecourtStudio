@@ -3,3 +3,9 @@
 //
 
 #include "Header.hpp"
+
+
+Header::Header(QMenuBar header){
+
+
+}

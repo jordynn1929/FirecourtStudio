@@ -20,7 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db68232-794d-46ab-812f-7c5d879cbe2f" name="Changes" comment="" />
+    <list default="true" id="4ac9bd15-61b5-4dd2-ab46-d179022b7b0f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,15 +30,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="ProjectApplicationVersion">
-    <option name="ide" value="CLion" />
-    <option name="majorVersion" value="2023" />
-    <option name="minorVersion" value="3.4" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
-  <component name="ProjectId" id="2chbf0CzFK5TlX1LZZBncc7LnL1" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2cwvFS0ZGhNmKRpNMEaIhR7Tbdz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,7 +48,6 @@
     &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/heather/Firecourt Corp/Firecourt Studio/FirecourtStudio&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -63,18 +58,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Engine/Zeta/Config" />
-      <recent name="$PROJECT_DIR$/src/GUI/Components/Playlist" />
       <recent name="$PROJECT_DIR$/src/GUI/Components/MainWindow" />
-      <recent name="$PROJECT_DIR$/src/GUI/Components/Footer" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="FirecourtStudio" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FirecourtStudio" TARGET_NAME="FirecourtStudio" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FirecourtStudio" RUN_TARGET_NAME="FirecourtStudio">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FirecourtStudio" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FirecourtStudio" TARGET_NAME="FirecourtStudio" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FirecourtStudio" RUN_TARGET_NAME="FirecourtStudio">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -89,15 +76,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2db68232-794d-46ab-812f-7c5d879cbe2f" name="Changes" comment="" />
-      <created>1708566858204</created>
+      <changelist id="4ac9bd15-61b5-4dd2-ab46-d179022b7b0f" name="Changes" comment="" />
+      <created>1708725528710</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1708566858204</updated>
-      <workItem from="1708566859321" duration="1783000" />
-      <workItem from="1708570740243" duration="10682000" />
-      <workItem from="1708584013680" duration="364000" />
-      <workItem from="1708584397818" duration="1036000" />
+      <updated>1708725528710</updated>
+      <workItem from="1708725533667" duration="3481000" />
+      <workItem from="1709035357350" duration="1893000" />
     </task>
     <servers />
   </component>
